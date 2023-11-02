@@ -5,10 +5,12 @@
 - Sentiment_Analysis_Using_Universal_Sentence_Embedder: Twitter sentiments, labels look rather arbitrary . Using Universal Sentence Embedder and an MLP. Poor result currently 40% accuracy.
 - sentiment-analysis-marketing/: using Amazon reviews data, and nltk python library. Rule based method
 
+## Parsing text using Dependency parsing and Entity tagging libraries
+- Resume parsing using spaCy, done in this [repo](https://github.com/hangjoni/resume-parsing)
+
 TODO:
 - pick one dataset, maybe Twitter dataset and try different methods with it
 - Try ULMFit
-- Try SpaCy - is an NLP package and framework, like NLTK?, but seems more popular and well documented
 
 
 # Today I learned
@@ -17,3 +19,10 @@ doc = nlp(
     "Now less than 4% are."
 )
 When two strings are placed together in python inside a function call, they are concatenated together. This is a convenience method to make code easy to read
+
+# Foundations
+
+## Transformers
+- Transformer_walthrough.ipynb: code walk through of Transformers model. 
+- Building block of Transformers: Attention, Layer Normalization, Residual Connection, Collapsing then Expanding Linear connections
+- When creating embedding with torch.Embedding() they has N(0, 1) distribution. Embeddings are scaled by the factor of sqrt(emb_size) before adding with positional embedding. This helps to reduce the impact of positional embedding in proportion to the word embedding. Inside Attention layers, we did a step of rescaling the embedding by 1/sqrt(emb_size) which get the mean and standard deviation to N(0, 1) back again
