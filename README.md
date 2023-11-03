@@ -14,6 +14,8 @@ TODO:
 
 - pick one dataset, maybe Twitter dataset and try different methods with it
 - Try ULMFit
+- play with [this gensim-based movie genre plot project](https://github.com/RaRe-Technologies/movie-plots-by-genre) (comes with slides)
+- play with the Annotated Transformers
 
 # Today I learned
 
@@ -35,3 +37,7 @@ When two strings are placed together in python inside a function call, they are 
 
 - a library for NER, dependency parsing, and pattern matching.
 - This is [good book](http://spacy.pythonhumanities.com/02_01_entityruler.html) with project example for spaCy. PROGRESS: chapter 5
+
+## gensim
+
+- an optimized library for loading text into different file formats, word2vec and document similarity
