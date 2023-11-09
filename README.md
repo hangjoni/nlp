@@ -12,6 +12,7 @@
 
 TODO:
 
+- project: Hackernews Progressive Web App with a search bar using fuzzy search and semantic search
 - pick one dataset, maybe Twitter dataset and try different methods with it
 - Try ULMFit
 - play with [this gensim-based movie genre plot project](https://github.com/RaRe-Technologies/movie-plots-by-genre) (comes with slides)
