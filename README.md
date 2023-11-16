@@ -37,7 +37,7 @@ When two strings are placed together in python inside a function call, they are 
 ## spaCy
 
 - a library for NER, dependency parsing, and pattern matching.
-- This is [good book](http://spacy.pythonhumanities.com/02_01_entityruler.html) with project example for spaCy. PROGRESS: chapter 7
+- This is [good book](http://spacy.pythonhumanities.com/02_01_entityruler.html) with project example for spaCy. PROGRESS: done!
 
 ## gensim
 
